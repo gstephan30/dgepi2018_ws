@@ -44,7 +44,7 @@ Sechs wichtige Aspekte:
 
 > 1. Verstehe den Kontext
 > 2. Wähle eine passende Art von Graph oder Tabelle
-> 3. Sortiere die Daten
+> 3. Säubere die Darstellung
 > 4. Richte die Aufmerksamkeit auf die Aussage
 > 5. Denke wie ein Designer - "weniger ist of mehr"
 > 6. Erzähle eine Geschichte
@@ -65,6 +65,9 @@ Frage: Wie verbessere ich die Datenqualität?
 <div style="position: absolute; bottom: 0; right: 1; text-align:right;">De Lusignan 2005</div>
 
 ---
+background-image: url(pics/motivation.png)
+background-size: 700px
+background-position: 80% 75%
 # 1. Verstehe den Kontext
 
 Studienleiter - braucht Information über __Studienperformance __
@@ -161,6 +164,143 @@ df %>%
   select(hospital, miss_outcome_per) %>% 
   knitr::kable("html")
 ```
+
+---
+# 3. Säubere die Darstellung
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+df2 <- read_csv("data/outbreaks.csv") %>% 
+  filter(Species == "Salmonella enterica" |
+           Species == "Norovirus genogroup II") %>% 
+  count(Year, Species)
+
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+g <- df2 %>% 
+  ggplot(aes(Year, n, color = Species)) +
+  geom_point() +
+  geom_line() 
+g
+```
+---
+# 3. Säubere die Darstellung
+Entferne Ränder und Gitterlinien und ggplots Standard-Theme
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+g <- g +
+  theme_classic()
+g
+```
+---
+# 3. Säubere die Darstellung
+Entferne Datenpunkte (reduziere den kognitiven Aufwand des Betrachters)
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+g <- df2 %>% 
+  ggplot(aes(Year, n, color = Species)) +
+  geom_line() +
+  theme_classic()
+g
+```
+
+---
+
+# 3. Säubere die Darstellung
+Verbessere die Axen
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+g <- g +
+  ylab(" ") + 
+  xlab(" ") +
+  ggtitle("Number of Foodborne Cases of selected Species\nin the USA between 1998 and 2015")
+g
+```
+---
+# 3. Säubere die Darstellung 
+Wer Infomration braucht bekommt sie durch "mouseover"
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+p <- df2 %>% 
+  ggplot(aes(Year, n, color = Species)) +
+  geom_line() +
+  theme_classic() + 
+  ylab(" ") + 
+  xlab(" ") +
+  ggtitle("Number of Foodborne Cases of selected Species\nin the USA between 1998 and 2015") +
+  scale_colour_discrete(guide = 'none')
+
+ggplotly(p) %>% 
+  layout(legend = list(x = 0.6, y = 0.2))
+```
+
+---
+background-image: url(pics/bad_dash1.gif)
+background-size: 700px
+background-position: 50% 50%
+
+
+
+# 4. Richte die Aufmerksamkeit auf die Aussage
+
+
+
+
+---
+
+# 4. Richte die Aufmerksamkeit auf die Aussage
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+g2 <- read_csv("data/outbreaks.csv") %>% 
+  group_by(State) %>% 
+  summarise(fatal = sum(Fatalities, na.rm = TRUE)) %>% 
+  mutate(farbe = ifelse(State == "New York", "red", "blue")) %>% 
+  filter(!is.na(fatal)) %>% 
+  filter(fatal >= 6 &
+           State != "Multistate") %>% 
+  ggplot(aes(x = reorder(State, fatal), y = fatal, fill = farbe)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  #scale_fill_discrete(guide = 'none')+ 
+  #scale_fill_identity() +
+  scale_fill_viridis_d(guide = "none") +
+  theme_classic() +
+  ylab(" ") + 
+  xlab(" ") +
+  ggtitle("Number of Fatalies per US State\n between 1998 and 2015")
+
+ggplotly(g2) %>% 
+  layout(showlegend = FALSE)
+```
+
+---
+# 4. Richte die Aufmerksamkeit auf die Aussage
+
+```{r  echo=FALSE, warning=FALSE, message=FALSE}
+df2 %>% 
+  add_count(Illnesses) %>% 
+  select(Month, Illnesses, n) %>% 
+  mutate(Month = month(ymd(paste0("2000-", Month, "-1")), label = TRUE)) %>% 
+  group_by(Month, Illnesses) %>% 
+  summarise(n_month = n()) %>% 
+  ungroup() %>% 
+  #filter(Illnesses == 20) %>% 
+  left_join(df2 %>% count(Illnesses)) %>% 
+  mutate(per = n_month/n*100) %>% 
+  filter(n>=500) %>% 
+  select(Month, Illnesses, per) %>% 
+  mutate(Illnesses = as.character(Illnesses)) %>% 
+  spread(Illnesses, per) %>% 
+  ggplot(aes(y = Month, x = per, fill = per)) +
+  #geom_area() +
+  geom_density_ridges_gradient(scale = 2) +
+  scale_fill_viridis(option = "D") 
+```
+
 
 
 ---
