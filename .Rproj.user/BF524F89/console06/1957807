@@ -259,4 +259,25 @@ Total 137 (delta 10), reused 0 (delta 0)[0K
 [0K[?25h]0; Branch master set up to track remote branch master from origin.[0K[?25l
 [0K
 U:\TxDashboard\dgepi2018_ws>[0K[?25hgit push -u origin master[0K[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "added columns in presentation"[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git add .[0K[?25h[?25l
+[0K[?25h]0;  - git  add .]0; [?25l
+U:\TxDashboard\dgepi2018_ws>[0K[?25hgit add .[0K[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "added columns in presentation"[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git push -u origin master[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "added columns in presentation"[0K[?25h]0;  - git  commit -m "added columns in presentation"[?25l
+[0K[?25h]0; [master 9107a82] added columns in presentation[0K[?25l
+ 2 files changed, 265 insertions(+), 1 deletion(-)[0K
+[0K
+U:\TxDashboard\dgepi2018_ws>[0K[?25hgit commit -m "added columns in presentation"[0K[?25lU:\TxDashboard\dgepi2018_ws>git add .[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "added columns in presentation"[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git push -u origin master[0K[?25h]0;  - git  push -u origin master[?25l
+[0K[?25herror: cannot spawn rpostback-askpass: No such file or directory[0K[?25l
+Username for 'https://github.com':[0K[36G[?25h[?25lUsername for 'https://github.com': g[0K[?25hs[0Kt[0Ke[0Kp[0Kh[0Ka[0Kn[0K3[0K0[0K[?25l
+error: cannot spawn rpostback-askpass: No such file or directory[0K
+Password for 'https://gstephan30@github.com':[0K[47G[?25h[?25l
+[0K[?25hCounting objects: 7, done.[0K[?25l
+[0K[?25hDelta compression using up to 4 threads.[0K[?25l
+Compressing objects: 100% (6/6), done.[0K
+Writing objects: 100% (7/7), 3.18 KiB | 0 bytes/s, done.[0K
+Total 7 (delta 1), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (1/1), completed with 1 local object.[0K[?25l
+[0K[?25hTo https://github.com/gstephan30/dgepi2018_ws.git[0K[?25l
+   cdc971a..9107a82  master -> master[0K
+[0K[?25h]0; Branch master set up to track remote branch master from origin.[0K[?25l
+[0K
+U:\TxDashboard\dgepi2018_ws>[0K[?25hgit push -u origin master[0K[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "added columns in presentation"[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git add .[0K[?25h[?25l
 [0K[?25h]0;  - git  add .
