@@ -1,5 +1,7 @@
-# DGEPi2018 Workshop - Unabdingbar, aber doch im Schattendasein - Datenqualität in epidemiologischen Studien – Was können wir besser machen
-## Visualisierung und interaktive Darstellung von Datenauffälligkeiten
+# DGEPi2018 Workshop
+
+Unabdingbar, aber doch im Schattendasein - Datenqualität in epidemiologischen Studien – Was können wir besser machen
+Visualisierung und interaktive Darstellung von Datenauffälligkeiten
 
 ### HTML Presentation
 https://htmlpreview.github.io/?https://github.com/gstephan30/dgepi2018_ws/blob/master/index.html
