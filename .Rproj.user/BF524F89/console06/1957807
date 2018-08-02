@@ -2,4 +2,261 @@
 [0K[?25hCopyright (c) 2009 Microsoft Corporation.  All rights reserved.[0K[?25l
 [0K
 g[0Ki[0Kt[0K[33G[?25lU:\TxDashboard\dgepi2018_ws>git a[0K[?25hd[0Kd[0K[37G[?25lU:\TxDashboard\dgepi2018_ws>git add .[0K[?25h[?25l
+[0K[?25h]0;  - git  add .warning: LF will be replaced by CRLF in index_files/figure-html/cars-1.svg.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/Proj4Leaflet/proj4-compressed.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/leaflet.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/leaflet.yaml.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/jquery/jquery.min.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet-measure/leaflet-measure.css.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet-measure/leaflet-measure.min.js.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet-omnivore/LICENSE.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet-omnivore/index.js.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet-omnivore/package.json.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet-providers/leaflet-providers.js.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet-providers/package.json.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet-providers/providers.json.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet-providers/rstudio_install.md.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leaflet/leaflet.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/leafletfix/leafletfix.css.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/lib/rstudio_leaflet/rstudio_leaflet.css.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.css.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.js.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet-MiniMap/Minimap-binding.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.EasyButton/EasyButton-binding.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.EasyButton/LICENSE.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.css.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.Graticule/Graticule-binding.js.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.Graticule/L.Graticule.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.Graticule/Leaflet.Graticule.js.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.SimpleGraticule/L.SimpleGraticule.css.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.SimpleGraticule/L.SimpleGraticule.js.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.SimpleGraticule/SimpleGraticule-binding.js.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.Terminator/L.Terminator.js.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.Terminator/Terminator-binding.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap-theme.min.css.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap.min.css.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap.min.js.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/font-awesome.min.css.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.svg.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.svg.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.svg.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/ionicons.min.css.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.css.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.min.js.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.markercluster/MIT-LICENCE.txt.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.markercluster/MarkerCluster.Default.css.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.markercluster/MarkerCluster.css.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.freezable.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.layersupport.js.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Leaflet.markercluster/package.json.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/Proj4Leaflet/proj4-compressed.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/leaflet-locationfilter/locationfilter-bindings.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/leaflet-locationfilter/locationfilter.css.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/leaflet-locationfilter/locationfilter.js.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet-binding/plugins/leaflet-providers-plugin/leaflet-providers-plugin.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in index_files/leaflet/leaflet.js.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in index_files/leafletfix/leafletfix.css.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25h]0; warning: LF will be replaced by CRLF in index_files/rstudio_leaflet/rstudio_leaflet.css.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K
+U:\TxDashboard\dgepi2018_ws>git[0K[33G[?25h[?25lU:\TxDashboard\dgepi2018_ws>git p[0K[?25hu[0Ks[0Kh[0K[38G[37G[?25lU:\TxDashboard\dgepi2018_ws>git pus[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git pu[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git p[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git[0K[33G[?25h[?25lU:\TxDashboard\dgepi2018_ws>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[40G[?25lU:\TxDashboard\dgepi2018_ws>git commit -[0K[?25hm[0K[43G[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "[0K[?25ha[0Kd[0Kd[0Ke[0Kd[0K[50G[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "added c[0K[?25ho[0Kl[0Ku[0Km[0Kn[0Ks[0K[58G[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "added columns i[0K[?25hn[0K[61G[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "added columns in p[0K[?25hr[0Ke[0Ks[0Ke[0Kn[0Kt[0Ka[0Kt[0Ki[0Ko[0Kn[0K"[0K]0;  - git  commit -m "added columns in presentation"[?25l
+[0K[?25h]0; [master cdc971a] added columns in presentation[0K[?25l
+ 124 files changed, 14817 insertions(+), 112 deletions(-)[0K
+ rewrite .Rproj.user/BF524F89/console06/1957807 (98%)[0K
+ create mode 100644 index_files/Proj4Leaflet/proj4-compressed.js[0K
+ create mode 100644 index_files/Proj4Leaflet/proj4leaflet.js[0K
+ rewrite index_files/figure-html/unnamed-chunk-11-1.png (99%)[0K
+ rewrite index_files/figure-html/unnamed-chunk-12-1.png (99%)[0K
+ create mode 100644 index_files/figure-html/unnamed-chunk-13-1.png[0K
+ create mode 100644 index_files/figure-html/unnamed-chunk-14-1.png[0K
+ create mode 100644 index_files/figure-html/unnamed-chunk-20-1.png[0K
+ create mode 100644 index_files/figure-html/unnamed-chunk-21-1.png[0K
+ create mode 100644 index_files/figure-html/unnamed-chunk-22-1.png[0K
+ create mode 100644 index_files/figure-html/unnamed-chunk-23-1.png[0K
+ create mode 100644 index_files/figure-html/unnamed-chunk-27-1.png[0K
+ create mode 100644 index_files/leaflet-binding/leaflet.js[0K
+ create mode 100644 index_files/leaflet-binding/leaflet.yaml[0K
+ create mode 100644 index_files/leaflet-binding/lib/jquery/jquery.min.js[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/cancel.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/cancel_@2X.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/check.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/check_@2X.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/focus.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/focus_@2X.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/rulers.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/rulers_@2X.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/start.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/start_@2X.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/trash.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/images/trash_@2X.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/leaflet-measure.css[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-measure/leaflet-measure.min.js[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-omnivore/LICENSE[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-omnivore/index.js[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-omnivore/leaflet-omnivore.min.js[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-omnivore/package.json[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-providers/leaflet-providers.js[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-providers/package.json[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-providers/providers.json[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet-providers/rstudio_install.md[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet/images/layers-2x.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet/images/layers.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet/images/marker-icon-2x.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet/images/marker-icon.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet/images/marker-shadow.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet/leaflet.css[0K
+ create mode 100644 index_files/leaflet-binding/lib/leaflet/leaflet.js[0K
+ create mode 100644 index_files/leaflet-binding/lib/leafletfix/leafletfix.css[0K
+ create mode 100644 index_files/leaflet-binding/lib/rstudio_leaflet/images/1px.png[0K
+ create mode 100644 index_files/leaflet-binding/lib/rstudio_leaflet/rstudio_leaflet.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.min.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet-MiniMap/Control.MiniMap.min.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet-MiniMap/Minimap-binding.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet-MiniMap/images/toggle.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet-MiniMap/images/toggle.svg[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.EasyButton/EasyButton-binding.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.EasyButton/LICENSE[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.EasyButton/easy-button.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.Graticule/Graticule-binding.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.Graticule/L.Graticule.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.Graticule/Leaflet.Graticule.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.SimpleGraticule/L.SimpleGraticule.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.SimpleGraticule/L.SimpleGraticule.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.SimpleGraticule/SimpleGraticule-binding.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.Terminator/L.Terminator.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.Terminator/Terminator-binding.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap-theme.min.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap.min.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/bootstrap.min.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/font-awesome.min.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/FontAwesome.otf[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.eot[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.svg[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.ttf[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/fontawesome-webfont.woff[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.eot[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.svg[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.ttf[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/glyphicons-halflings-regular.woff[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.eot[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.svg[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.ttf[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/fonts/ionicons.woff[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-matte.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-matte@2x.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-plain.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-shadow.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-shadow@2x.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-soft.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/images/markers-soft@2x.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/ionicons.min.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.awesome-markers/leaflet.awesome-markers.min.js[0K
+ rename index_files/{jquery/LICENSE.txt => leaflet-binding/plugins/Leaflet.markercluster/MIT-LICENCE.txt} (63%)[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.markercluster/MarkerCluster.Default.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.markercluster/MarkerCluster.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.freezable.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.markercluster/leaflet.markercluster.layersupport.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Leaflet.markercluster/package.json[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Proj4Leaflet/proj4-compressed.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/Proj4Leaflet/proj4leaflet.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/leaflet-locationfilter/img/filter-icon.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/leaflet-locationfilter/img/move-handle.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/leaflet-locationfilter/img/resize-handle.png[0K
+ create mode 100644 index_files/leaflet-binding/plugins/leaflet-locationfilter/locationfilter-bindings.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/leaflet-locationfilter/locationfilter.css[0K
+ create mode 100644 index_files/leaflet-binding/plugins/leaflet-locationfilter/locationfilter.js[0K
+ create mode 100644 index_files/leaflet-binding/plugins/leaflet-providers-plugin/leaflet-providers-plugin.js[0K
+ create mode 100644 index_files/leaflet/images/layers-2x.png[0K
+ create mode 100644 index_files/leaflet/images/layers.png[0K
+ create mode 100644 index_files/leaflet/images/marker-icon-2x.png[0K
+ create mode 100644 index_files/leaflet/images/marker-icon.png[0K
+ create mode 100644 index_files/leaflet/images/marker-shadow.png[0K
+ create mode 100644 index_files/leaflet/leaflet.css[0K
+ create mode 100644 index_files/leaflet/leaflet.js[0K
+ create mode 100644 index_files/leafletfix/leafletfix.css[0K
+ create mode 100644 index_files/rstudio_leaflet/images/1px.png[0K
+ create mode 100644 index_files/rstudio_leaflet/rstudio_leaflet.css[0K
+[0K
+U:\TxDashboard\dgepi2018_ws>[0K[?25hg[0Ki[0Kt[0K[33G[?25lU:\TxDashboard\dgepi2018_ws>git p[0K[?25hu[0Ks[0Kh[0K[38G[?25lU:\TxDashboard\dgepi2018_ws>git push -[0K[?25hu[0K[41G[?25lU:\TxDashboard\dgepi2018_ws>git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[48G[?25lU:\TxDashboard\dgepi2018_ws>git push -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25h]0;  - git  push -u origin mastererror: cannot spawn rpostback-askpass: No such file or directory[0K[?25l
+Username for 'https://github.com':[0K[36G[?25h[?25lUsername for 'https://github.com': g[0K[?25hs[0Kt[0Ke[0Kp[0Kh[0Ka[0Kn[0K3[0K0[0K[?25l
+error: cannot spawn rpostback-askpass: No such file or directory[0K
+Password for 'https://gstephan30@github.com':[0K[47G[?25h[?25l
+[0K[?25h[?25lCounting objects: 1[0K[1G[?25hCounting objects: 137, done.[0K[?25l
+[0K[?25hDelta compression using up to 4 threads.[0K[?25l
+Compressing objects:  16% (22/133)[0K[1G[?25h[?25lCompressing objects:  39% (52/133)[0K[1G[?25h[?25lCompressing objects:  52% (70/133)[0K[1G[?25h[?25lCompressing objects:  69% (92/133)[0K[1G[?25h[?25lCompressing objects:  81% (108/133)[0K[1G[?25h[?25lCompressing objects:  96% (128/133)[0K[1G[?25hCompressing objects: 100% (133/133), done.[0K[?25l
+Writing objects:   8% (11/137)[0K[1G[?25h[?25lWriting objects:  27% (37/137)[0K[1G[?25h[?25lWriting objects:  40% (55/137)[0K[1G[?25h[?25lWriting objects:  63% (87/137)[0K[1G[?25h[?25lWriting objects:  70% (96/137)[0K[1G[?25h[?25lWriting objects:  74% (102/137)[0K[1G[?25h[?25lWriting objects:  75% (103/137)[0K[1G[?25h[?25lWriting objects:  75% (104/137), 984.00 KiB | 497.00 KiB/s[0K[1G[?25h[?25lWriting objects:  76% (105/137), 984.00 KiB | 497.00 KiB/s[0K[1G[?25h[?25lWriting objects:  77% (106/137), 984.00 KiB | 497.00 KiB/s[0K[1G[?25h[?25lWriting objects:  78% (107/137), 984.00 KiB | 497.00 KiB/s[0K[1G[?25h[?25lWriting objects:  79% (109/137), 984.00 KiB | 497.00 KiB/s[0K[1G[?25h[?25lWriting objects:  82% (113/137), 984.00 KiB | 497.00 KiB/s[0K[1G[?25h[?25lWriting objects:  83% (114/137), 984.00 KiB | 497.00 KiB/s[0K[1G[?25h[?25lWriting objects:  85% (117/137), 1.31 MiB | 542.00 KiB/s[0K[1G[?25h[?25lWriting objects:  96% (132/137), 1.31 MiB | 542.00 KiB/s[0K[1G[?25hWriting objects: 100% (137/137), 1.43 MiB | 542.00 KiB/s, done.[0K[?25l
+Total 137 (delta 10), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (10/10), completed with 7 local objects.[0K[?25l
+[0K[?25hTo https://github.com/gstephan30/dgepi2018_ws.git[0K[?25l
+   4daa3e2..cdc971a  master -> master[0K
+[0K[?25h]0; Branch master set up to track remote branch master from origin.[0K[?25l
+[0K
+U:\TxDashboard\dgepi2018_ws>[0K[?25hgit push -u origin master[0K[?25lU:\TxDashboard\dgepi2018_ws>git commit -m "added columns in presentation"[0K[?25h[?25lU:\TxDashboard\dgepi2018_ws>git add .[0K[?25h[?25l
 [0K[?25h]0;  - git  add .
