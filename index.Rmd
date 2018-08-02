@@ -99,6 +99,7 @@ background-position: 50% 75%
 library(outbreaks)
 library(tidyverse)
 library(plotly)
+library(viridis)
 df <- ebola_sim_clean[[1]] %>% 
   mutate_all(funs(as.character))
 
@@ -279,27 +280,90 @@ ggplotly(g2) %>%
 
 ---
 # 4. Richte die Aufmerksamkeit auf die Aussage
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+df3 <- okcupiddata::profiles %>% as_tibble()
+g3 <- df3 %>% 
+  count(sex, age) %>% 
+  mutate(n_py = ifelse(sex == "f", 0-n, n),
+         high = ifelse(
+           age != 42, "foo", "ok"
+           )) %>% 
+  filter(age<90) %>% 
+  ggplot(aes(age, n_py, fill = high)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  ggthemes::theme_tufte() +
+  scale_fill_viridis_d(option = "E") +
+  scale_colour_discrete(guide = 'none') +
+  ylab(" ") +
+  ggtitle(
+    "Population Pyramid Online Community"
+    )
 
-```{r  echo=FALSE, warning=FALSE, message=FALSE}
-df2 %>% 
-  add_count(Illnesses) %>% 
-  select(Month, Illnesses, n) %>% 
-  mutate(Month = month(ymd(paste0("2000-", Month, "-1")), label = TRUE)) %>% 
-  group_by(Month, Illnesses) %>% 
-  summarise(n_month = n()) %>% 
-  ungroup() %>% 
-  #filter(Illnesses == 20) %>% 
-  left_join(df2 %>% count(Illnesses)) %>% 
-  mutate(per = n_month/n*100) %>% 
-  filter(n>=500) %>% 
-  select(Month, Illnesses, per) %>% 
-  mutate(Illnesses = as.character(Illnesses)) %>% 
-  spread(Illnesses, per) %>% 
-  ggplot(aes(y = Month, x = per, fill = per)) +
-  #geom_area() +
-  geom_density_ridges_gradient(scale = 2) +
-  scale_fill_viridis(option = "D") 
+g3 <- ggplotly(g3) %>% 
+  layout(showlegend = FALSE)
 ```
+
+
+.pull-left[
+```{r echo=FALSE}
+g3
+```
+]
+
+
+.pull-right[
+```{r eval=FALSE}
+g3 <- df3 %>% 
+  count(sex, age) %>% 
+  mutate(n_py = ifelse(sex == "f", 0-n, n),
+         high = ifelse(
+           age != 42, "foo", "ok"
+           )) %>% 
+  filter(age<90) %>% 
+  ggplot(aes(age, n_py, fill = high)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  ggthemes::theme_tufte() +
+  scale_fill_viridis_d(option = "E") +
+  scale_colour_discrete(guide = 'none') +
+  ylab(" ") +
+  ggtitle(
+    "Population Pyramid Online Community"
+    )
+
+ggplotly(g3) %>% 
+  layout(showlegend = FALSE)
+```
+]
+
+
+
+---
+# 4. Richte die Aufmerksamkeit auf die Aussage
+
+.pull-left[
+```{r warning=FALSE, message=FALSE}
+library(lvplot)
+df3 <- okcupiddata::profiles %>% as_tibble()
+g4 <- df3 %>% 
+  ggplot(aes(drinks, age, fill = drinks)) +
+  geom_lv(outlier.colour = "red") +
+  scale_fill_viridis(discrete = TRUE)+
+  theme_bw()
+```
+]
+
+.pull-right[
+```{r echo=FALSE}
+g4
+```
+]
+
+---
+# 5. Denke wie ein Designer - "weniger ist of mehr"
+
+
 
 
 
