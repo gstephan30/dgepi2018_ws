@@ -13,4 +13,5 @@ https://htmlpreview.github.io/?https://github.com/gstephan30/dgepi2018_ws/blob/m
 ### Used libraries
 
 `pkgs <- c("tidyverse", "plotly", "viridis", "lvplot", "gapminder", "networkD3", "DT", "formattable", "kableExtra", "VIM", "knitr", "rmarkdown", "flexdashboard")`
+
 `install.packages(pkgs)`
