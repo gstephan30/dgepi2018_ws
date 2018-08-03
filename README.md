@@ -8,7 +8,7 @@ https://htmlpreview.github.io/?https://github.com/gstephan30/dgepi2018_ws/blob/m
 
 ### Code for Datasets:
 
-`df2 <- read_csv("data/outbreaks.csv")`
+`df <- read_csv("data/outbreaks.csv")`
 
 ### Used libraries
 
