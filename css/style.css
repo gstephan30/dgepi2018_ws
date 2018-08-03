@@ -46,3 +46,10 @@
   border-radius: 3px;
   padding: 4px;
 }
+
+.last-slide {
+  background-image: url(../pics/koala.jpg);
+  background-size: 1080px;
+  background-color: #FFFFFF;
+  border-top: none;
+}

@@ -1,0 +1,215 @@
+---
+title: "DGEpi 2018 Dataquality Demo Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    css: ["css/flex.css", "css/summarytools.css"]
+    logo: pics/hzi_logo.png
+    source_code: embed
+    navbar:
+      - { title: "Back to Talk", href: "index.html#16"}
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(plotly)
+library(tidyverse)
+library(summarytools)
+library(formattable)
+library(knitr)
+library(kableExtra)
+library(VIM)
+library(lvplot)
+df <- read_csv("data/outbreaks.csv")
+```
+
+Gesamt {data-navmenu="DQ Navigation" data-icon="fa-list" data-orientation=rows}
+===
+
+Column 
+-----------------------------------------------------------------------
+
+### Datenvollständigkeit
+
+```{r}
+DC <- 97
+gauge(DC, min = 0, max = 100, symbol = '%', gaugeSectors(
+  success = c(90, 100), warning = c(70, 89), danger = c(0, 69)
+))
+```
+
+### Datengenauigkeit 
+
+```{r}
+DA <- 59
+gauge(DA, min = 0, max = 100, symbol = '%', gaugeSectors(
+  success = c(90, 100), warning = c(70, 89), danger = c(0, 69)
+))
+```
+
+### gesamte Datenqualität
+
+```{r}
+DQ <- 85
+gauge(DQ, min = 0, max = 100, symbol = '%', gaugeSectors(
+  success = c(90, 100), warning = c(70, 89), danger = c(0, 69)
+))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Trend der Fälle in Prozent
+
+```{r}
+varis <- c("Florida", "California", "Ohio", "Illinois", "New York")
+g2 <- df %>% 
+  add_count(Year, State) %>% 
+  add_count(State) %>% mutate(per = n/nn) %>% 
+  select(Year, State, n, nn, per) %>% 
+  filter(grepl(paste(varis, collapse = "|"), 
+               State)) %>% 
+  distinct() %>% 
+  ggplot(aes(Year, per, color = State)) +
+  geom_line() + theme_classic() + xlab("") +
+  ylab("") + 
+  scale_color_brewer(palette = "Set1", 
+                     type ="qual") +
+  
+  scale_size_continuous(guide = "none")
+ggplotly(g2) %>% 
+  layout(legend = list(x = 0.75, y = 0.95))
+```
+
+### gesamte Fälle pro Jahr 
+
+```{r}
+df %>% 
+  add_count(Year, State) %>% 
+  add_count(State) %>%
+  mutate(per = n/nn) %>% 
+  select(Year, State, n, nn, per) %>% 
+  distinct() %>% 
+  group_by(Year) %>% 
+  summarise(Cases_per_year = sum(n)) %>% 
+  mutate(Cases_per_year = color_tile("white", "red")(Cases_per_year)) %>% 
+  kable(escape = F, align = "c") %>%
+  kable_styling(full_width = F)
+```
+
+
+Datenzusammenfassung {data-navmenu="DQ Navigation" data-icon="fa-list" data-orientation=columns}
+===
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+<div align="center">
+```{r}
+print(dfSummary(df, style = "grid", plain.ascii = FALSE, graph.magnif = 0.85), 
+      method = "render", omit.headings = TRUE)
+```
+</div>
+
+
+Datenvollständigkeit {data-navmenu="DQ Navigation" data-icon="fa-list" data-orientation=columns}
+===
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Missing values per Variable (in Percent)
+
+```{r}
+g <- df %>% 
+  summarise_all(funs(countNA)) %>% 
+  gather(Variable, missings) %>% 
+  mutate(miss_per = missings/nrow(df)*100) %>% 
+  ggplot(aes(reorder(Variable, miss_per), miss_per, fill = miss_per)) +
+  geom_bar(stat = "identity") +
+  scale_fill_viridis_c(option = "C", guide = "none") +
+  coord_flip() +
+  theme_classic() +
+  xlab("") +
+  ylab("") +
+  ggtitle("Missing values per Variable (in Percent)")
+ggplotly(g) %>% 
+  layout(showlegend = FALSE)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Missing values per State (in Percent)
+
+```{r}
+g2 <- df %>% group_by(State) %>% 
+  summarise_all(countNA) %>% 
+  gather(Variable, missing, -State) %>% 
+  group_by(State) %>% 
+  summarise(miss = sum(missing)) %>% 
+  left_join(df %>% add_count(State) %>% mutate(n = n*(ncol(df)-1)) %>% select(State, n) %>% distinct()) %>% 
+  mutate(miss_per_s = round((miss/n*100), digits = 1)) %>% 
+  filter(miss_per_s >= 31.6) %>% 
+  ggplot(aes(reorder(State, miss_per_s), miss_per_s, fill = miss_per_s)) +
+  geom_bar(stat = "identity") +
+  
+  scale_fill_viridis_c(option = "C", guide = "none") +
+  
+  coord_flip() +
+  
+  theme_classic() +
+  xlab("") +
+  ylab("") +
+  ggtitle("Missing values per State (in Percent)")
+ggplotly(g2) %>% 
+  layout(showlegend = FALSE)
+```
+
+### Gesamt Datenvollständigkeit
+
+```{r}
+DC <- 97
+valueBox(DC, icon = "fa-thumbs-up", color = "green")
+```
+
+Datengenauigkeit {data-navmenu="DQ Navigation" data-icon="fa-list" data-orientation=columns}
+===
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Anzahl der Erkrankten pro Ausbruch nach US Staat
+
+```{r}
+df %>% 
+  select(State, Illnesses) %>% 
+  add_count(State) %>% 
+  filter(n >= 1000) %>% 
+  ggplot(aes(State, Illnesses)) +
+  geom_lv( outlier.colour = "red", fill = "#005aa0", color = "#005aa0") +
+  theme_classic() +
+  xlab("") +
+  ylab("")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+test <- df %>% select(Year, Ingredient, Species, Status) %>% as.matrix()
+pbox(test)
+```
+
+### Chart C
+
+```{r}
+DC <- 59
+valueBox(DC, icon = "fa-thumbs-down", color = "red")
+```
+
