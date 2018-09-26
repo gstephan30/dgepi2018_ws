@@ -94,17 +94,60 @@ gapminder %>%
 ```
 ]
 
+---
+# 1. Grundsätze der Datenvisualisation II
+
+<div align="center">
+  <img src="pics/failure/pic01.jpg" width="50%" />
+</div>  
+---
+# 1. Grundsätze der Datenvisualisation II
+
+<div align="center">
+  <img src="pics/failure/pic02.jpg" width="80%" />
+</div>  
+---
+# 1. Grundsätze der Datenvisualisation II
+
+<div align="center">
+  <img src="pics/failure/pic03.png" width="40%" />
+</div>  
+---
+# 1. Grundsätze der Datenvisualisation II
+
+<div align="center">
+  <img src="pics/failure/pic04.jpg" width="70%" />
+</div>  
+---
+# 1. Grundsätze der Datenvisualisation II
+
+<div align="center">
+  <img src="pics/failure/pic05.jpg" width="35%" />
+</div>  
+---
+# 1. Grundsätze der Datenvisualisation II
+
+<div align="center">
+  <img src="pics/failure/pic06.png" width="68%" />
+</div>  
+---
+# 1. Grundsätze der Datenvisualisation II
+
+<div align="center">
+  <img src="pics/failure/pic07.jpg" width="75%" />
+</div>
+
+Abiy et al. (2018)
 
 ---
 
-# 1. Grundsätze der Datenvisualisation II
+# 1. Grundsätze der Datenvisualisation III
 
 Frage: Wie verbessere ich die Datenqualität?
 
 <div align="center">
   <img src="pics/motivation.png" width="75%" />
 </div>
-
 ---
 class: inverse, middle, center
 

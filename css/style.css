@@ -9,6 +9,13 @@
   padding: 1em 2em 1em 2em
 }
 
+.remark-slide-number {
+  font-size: 13pt;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-bottom: -15px
+}
+
 
 .title-slide {
   background-image: url(../pics/title.png);
