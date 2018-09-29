@@ -4,7 +4,7 @@ Unabdingbar, aber doch im Schattendasein - Datenqualität in epidemiologischen S
 Visualisierung und interaktive Darstellung von Datenauffälligkeiten
 
 ### HTML Presentation
-https://htmlpreview.github.io/?https://github.com/gstephan30/dgepi2018_ws/blob/master/index.html
+https://dgepi2018sg.netlify.com
 
 (please clone or download, some features do not work via `htmlpreview` of github)
 
