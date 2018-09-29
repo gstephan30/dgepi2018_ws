@@ -6,8 +6,6 @@ Visualisierung und interaktive Darstellung von Datenauffälligkeiten
 ### HTML Presentation
 https://dgepi2018sg.netlify.com
 
-(please clone or download, some features do not work via `htmlpreview` of github)
-
 ### Code for Datasets:
 
 `df <- read_csv("data/outbreaks.csv")`
